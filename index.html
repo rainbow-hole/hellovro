@@ -5,22 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>saturatemetro</title>
-    <style>
+    
+     <style>
+        @font-face {
+    font-family: 'Pinte Me Verde';
+    src: url('Pinte%20Me%20Verde.ttf') format('truetype');
+        }
         body {
-    margin: 0;
-    min-height: 100vh;
-    background-image: url("fundo2.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    h1 {
-    font-family: 'Pinte Me Verde', sans-serif;
-}
-        
+            margin: 0;
+            min-height: 100vh;
+            background-image: url("fundo1.png");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
         .pagina {
             width: 90%;
             max-width: 700px;
@@ -42,6 +47,7 @@
             color: black;
             font-size: 22px;
             line-height: 1.6;
+            font-family: 'Pinte Me Verde', sans serif;
         }
 
         audio {
@@ -50,13 +56,12 @@
 
         .hidden {
             display: none;
-            color: yellow;
+            color: yellow
         }
     </style>
 </head>
-
 <body>
-
+    
     <main class="pagina">
 
         <img
